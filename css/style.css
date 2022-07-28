@@ -1,0 +1,107 @@
+
+.redes{
+    padding: 5px;
+}
+/*whastapp*/
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  /*background-color:#25d366;*/
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+
+.whatsapp-icon {
+  margin-top:13px;
+}
+.whats{
+    color: #FFF;                                                                    
+    z-index:120; 
+  position:fixed;
+  width:60px;
+  height:60px;
+  right:30px;
+}
+/*Iconos*/
+.icono{
+  font-size: 35px;
+ 
+}
+/* estrella*/
+.bi-star-fill {
+  color:rgb(244, 224, 8);
+  
+}
+.bi-star{
+  color:rgb(244, 224, 8);
+
+}
+/*metodos de pago*/
+.pago img{
+  width:20%;
+  
+}
+@media (max-width: 1100px) {
+  .pago img{
+    width:10%;
+   /*border: red 1px solid;*/
+    
+  }
+}
+
+/*swiper*/
+.swiper {
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 40px 60px;
+}
+
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide .title {
+  font-size: 41px;
+  font-weight: 300;
+}
+
+.swiper-slide .subtitle {
+  font-size: 21px;
+}
+
+.swiper-slide .text {
+  font-size: 14px;
+  max-width: 450px;
+  line-height: 1.3;
+}
+.fondo{
+  background: rgba(0, 0, 0, .3);
+  padding: 30px;
+border-radius: 10%;
+}
+
+.borde{
+  border: 1px solid red;
+}
+/*footer*/
